@@ -156,13 +156,49 @@ Now you are greeted with main page of your passbolt server! Lets add your accoun
 3. Click create new identity
 4. You are greeted with a popup that you add your login details in, you may change the name to what ever you like as long as you regonize it on passbolt page.
    ![image](https://github.com/WindoCode/Infosec/assets/110290723/4e2b2d4d-5718-4d40-be01-3e5dfb15d6b8)
-5. Your password is stored now on passbolt website. I recommend generating new password on passbolt page and changing it at service to the one generated. Passbolt passwords have great entropy, which make your PW highly secured.
+6. Your password is stored now on passbolt website. I recommend generating new password on passbolt page and changing it at service to the one generated. Passbolt passwords have great entropy, which make your PW highly secured.
+![image](https://github.com/WindoCode/Infosec/assets/110290723/5f0a4872-6b4d-424a-9cb3-859356cf2521)
 
 
+## Encrypt and decrypt a message
 
+### Encrypting a Message:
 
+Step 1: Install PGP Software
+You'll need to have PGP software installed on your computer. Popular options include GnuPG (an open-source implementation of PGP) or commercial options like Symantec's PGP.
 
+Step 2: Generate a PGP Key Pair
+Open your PGP software and create a new key pair. This will generate a public key (which you can share with others) and a private key (which you must keep secret).
 
+Step 3: Obtain Recipient's Public Key
+If you're sending a message to someone, you need their public key. They can send it to you directly, or you can find it on a public key server.
+
+Step 4: Encrypt the Message
+Open your PGP software and select the option to encrypt a message.
+You'll be prompted to select the recipient's public key. Choose the appropriate key.
+
+Step 5: Compose and Encrypt Your Message
+
+Write your message in the provided text area.
+When you're ready to encrypt, use the recipient's public key to do so.
+Step 6: Send the Encrypted Message
+
+You can now send the encrypted message through your preferred communication channel (email, messaging apps, etc.).
+
+### Decrypting a Message:
+Step 1: Receive the Encrypted Message
+The recipient receives the encrypted message.
+
+Step 2: Import Your Private Key
+Open your PGP software and import your private key.
+
+Step 3: Decrypt the Message
+Open the encrypted message using your PGP software.
+The software will prompt you for your private key passphrase (this is the password you set when you generated your keys).
+Once you enter the passphrase, the message will be decrypted and displayed.
+
+Step 4: Read the Decrypted Message
+You can now read the decrypted message.
 
 # a) ETAOIN
 
@@ -171,3 +207,6 @@ First I saw patterns ”DHHP//”, which showed like a link. ”OWG” in this c
 On second part I counted the top 5 most frequent numbers. I 12 times, B 12 times, M 10 times, T 10 times, AKOWY 8 times. I added above letters to my decypher alpabet, and started cracking the riddle. As I was solving the riddle, some words missed a letter or two, which were guessable by solving the previous words. Filled up the decypher alphabet and got the answer.
 
 THATS’IT YOU’RE NOW OFFICIALLY A CODEBREAKER. AS YOU MAY SEE SIMPLE SUBSTITUTION CIPHERS CAN BE BROKEN WITH FREQUENCY ANALYSIS SE YOU AR http://TEROKARVINEN.COM.
+
+![image](https://github.com/WindoCode/Infosec/assets/110290723/1718cc69-530a-4d09-8960-d888bdac3e8d)
+
