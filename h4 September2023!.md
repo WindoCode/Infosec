@@ -10,15 +10,6 @@
 
 - One way functions a secret "trapdoor" element, making them easy in one direction and hard in the reverse, but with knowledge of the secret, the reverse computation is feasible.
 
-## Särökaari 2018: Email Phishing:
-
-Phishing involves the deceptive practice of crafting emails to mimic reputable sources, with the intention of extracting sensitive information. This is often achieved through the inclusion of malicious attachments or deceptive links.
-
-To bolster email security, Sender Policy Framework (SPF) acts as a validation mechanism, verifying if the sender's IP address aligns with the expected source. In tandem, DomainKeys Identified Mail (DKIM) adds an extra layer of security by affixing a digital signature to the email headers, ensuring that the content remains unaltered during transmission. These protocols collectively serve to establish the legitimacy of domains.
-
-Additionally, robust malware and spam filters play a crucial role in safeguarding against potential threats, effectively shielding users from both harmful attachments and poorly constructed phishing emails.
-
-Source: [Youtube](https://www.youtube.com/watch?v=m9YFJGSHYtY)
 
 ## One-way hash functions:
 - Are also known as compression function, message digest, cryptographic checksum, etc.
@@ -28,10 +19,22 @@ Source: [Youtube](https://www.youtube.com/watch?v=m9YFJGSHYtY)
 - A one-way hash function is easy to compute in one direction (from pre-image to hash value), but hard to generate a pre-image from a given hash value. Also hash functions are collision-free: its hard to create two diffrent pre-images that produce same hash value.
 - The security of a one-way hash function lies in its one-wayness; the output is not discernibly dependent on the input.
 
+
 File fingerprinting:
 
 - Is used to verify the integrity of files without transferring the entire file. Instead, parties share and verify hash values.
 - Message Authentication Codes (MAC): Are an extension of one-way hash functions, incorporating a secret key along with the pre-image.
+
+
+## Särökaari 2018: Email Phishing:
+
+Phishing involves the deceptive practice of crafting emails to mimic reputable sources, with the intention of extracting sensitive information. This is often achieved through the inclusion of malicious attachments or deceptive links.
+
+To bolster email security, Sender Policy Framework (SPF) acts as a validation mechanism, verifying if the sender's IP address aligns with the expected source. In tandem, DomainKeys Identified Mail (DKIM) adds an extra layer of security by affixing a digital signature to the email headers, ensuring that the content remains unaltered during transmission. These protocols collectively serve to establish the legitimacy of domains.
+
+Additionally, robust malware and spam filters play a crucial role in safeguarding against potential threats, effectively shielding users from both harmful attachments and poorly constructed phishing emails.
+
+Source: [Youtube](https://www.youtube.com/watch?v=m9YFJGSHYtY)
 
 # Install Hashcat. Test it with a sample hash.
 
