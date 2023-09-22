@@ -118,7 +118,7 @@ Technical Tactics:
 
 - Phishing Link: A disguised URL leading to a page designed to look like a login portal. This is where the attack would take place, capturing login credential.
 
-- For this exercise I would use BlackEye [Link](https://github.com/An0nUD4Y/blackeye). Very easy to use tool that can run fake login page easily. Would paste the login page to button in the email-link. This way we harvest the login.
+- For this exercise I would use [Blackeye](https://github.com/An0nUD4Y/blackeye). Very easy to use tool that can run fake login page easily. Would paste the login page to button in the email-link. This way we harvest the login.
 
 
 
