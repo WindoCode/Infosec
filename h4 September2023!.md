@@ -1,8 +1,32 @@
 # h4 September2023!
 
-## Install Hashcat. Test it with a sample hash.
+# Schneier 2015: Applied Cryptography: One-way functions and One-way hash functions
 
-### Installing hashcat and making preparations for cracking the password
+## One way functions are:
+
+fundamental for various cryptographic protocols.
+are easy to compute in one direction but extremely hard to reverse.
+impractical to reverse compute, even with the combined computing power of all the world's computers.
+
+These include a secret "trapdoor" element, making them easy in one direction and hard in the reverse, but with knowledge of the secret, the reverse computation is feasible.
+
+
+## One-way hash functions:
+- Are also known as compression function, message digest, cryptographic checksum, etc.
+- Are central to modern cryptography and a fundamental building block for various protocols.
+- Are functions that converts a variable-length input strings (pre-images) into a fixed-length output strings (hash values).
+
+- A one-way hash function is easy to compute in one direction (from pre-image to hash value), but hard to generate a pre-image from a given hash value. Also hash functions are collision-free: its hard to create two diffrent pre-images that produce same hash value.
+- The security of a one-way hash function lies in its one-wayness; the output is not discernibly dependent on the input.
+
+File fingerprinting:
+
+- Is used to verify the integrity of files without transferring the entire file. Instead, parties share and verify hash values.
+- Message Authentication Codes (MAC): Are an extension of one-way hash functions, incorporating a secret key along with the pre-image.
+
+# Install Hashcat. Test it with a sample hash.
+
+## Installing hashcat and making preparations for cracking the password
 ```
 $ sudo apt-get update
 $ sudo apt-get -y install hashid hashcat wget
@@ -32,7 +56,7 @@ Downloading rockyou.txt which contains over 14 million words. Unzipping the tar 
 ![image](https://github.com/WindoCode/Infosec/assets/110290723/0e6a7f7b-f564-4ce5-b13e-5e4c13473119)
 
 
-### Cracking password
+## Cracking password
 
 Lets analyze what encryption this hash could use.
 
@@ -69,9 +93,37 @@ Result: february
 
 ![image](https://github.com/WindoCode/Infosec/assets/110290723/a2118366-2381-4c58-82a4-e28dac7cedf4)
 
-### Trying Hashcat on my host computer
 
 
+## Gone phising 
+
+### Target:
+
+Organization: For this exersise I would target small to medium sized company that handles sensitive customer information.
+Person: Working in marketing,accounting or sales. Somebody who probably has higher access to company data than normal employee.
+
+### Goals for this email: 
+Create a sense of urgency to prompt quick action.
+Convey that the recipient's account is at risk, and action is necessary.
+Harvest passwords from not tech-savvy personnel to access company's systems. Using same password for multiple platforms.
+
+
+### What tactics are you using?
+
+Psychological
+Authority (Cialdini): Positioning as a LinkedIn security officer to establish trust and credibility.
+Urgency: Implying that immediate action is crucial to prevent malicious account usage.
+
+Technical Tactics:
+
+Phishing Link: A disguised URL leading to a page designed to look like a login portal. This is where the attack would take place, capturing login credential.
+
+For this I would use BlackEye [Link](https://github.com/An0nUD4Y/blackeye). Very easy to use tool that can run fake login page easily. Would paste the login page to button in the email-link. This way we harvest the login.
+
+
+
+
+![image](https://github.com/WindoCode/Infosec/assets/110290723/5647cda4-cc6d-4a4c-a6f9-4fa99e0cf45a)
 
 
 
