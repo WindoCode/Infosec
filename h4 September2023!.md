@@ -4,11 +4,11 @@
 
 ## One way functions are:
 
-fundamental for various cryptographic protocols.
-are easy to compute in one direction but extremely hard to reverse.
-impractical to reverse compute, even with the combined computing power of all the world's computers.
+- fundamental for various cryptographic protocols.
+- are easy to compute in one direction but extremely hard to reverse.
+- impractical to reverse compute, even with the combined computing power of all the world's computers.
 
-These include a secret "trapdoor" element, making them easy in one direction and hard in the reverse, but with knowledge of the secret, the reverse computation is feasible.
+- One way functions a secret "trapdoor" element, making them easy in one direction and hard in the reverse, but with knowledge of the secret, the reverse computation is feasible.
 
 
 ## One-way hash functions:
