@@ -99,26 +99,26 @@ Result: february
 
 ### Target:
 
-Organization: For this exersise I would target small to medium sized company that handles sensitive customer information.
-Person: Working in marketing,accounting or sales. Somebody who probably has higher access to company data than normal employee.
+- Organization: For this exersise I would target small to medium sized company that handles sensitive customer information.
+- Person: Working in marketing,accounting or sales. Somebody who probably has higher access to company data than normal employee.
 
 ### Goals for this email: 
-Create a sense of urgency to prompt quick action.
-Convey that the recipient's account is at risk, and action is necessary.
-Harvest passwords from not tech-savvy personnel to access company's systems. Using same password for multiple platforms.
+- Create a sense of urgency to prompt quick action.
+- Convey that the recipient's account is at risk, and action is necessary.
+- Harvest passwords from not tech-savvy personnel to access company's systems. Using same password for multiple platforms.
 
 
 ### What tactics are you using?
 
-Psychological
-Authority (Cialdini): Positioning as a LinkedIn security officer to establish trust and credibility.
-Urgency: Implying that immediate action is crucial to prevent malicious account usage.
+Psychological:
+- Authority (Cialdini): Positioning as a LinkedIn security officer to establish trust and credibility.
+- Urgency: Implying that immediate action is crucial to prevent malicious account usage.
 
 Technical Tactics:
 
-Phishing Link: A disguised URL leading to a page designed to look like a login portal. This is where the attack would take place, capturing login credential.
+- Phishing Link: A disguised URL leading to a page designed to look like a login portal. This is where the attack would take place, capturing login credential.
 
-For this I would use BlackEye [Link](https://github.com/An0nUD4Y/blackeye). Very easy to use tool that can run fake login page easily. Would paste the login page to button in the email-link. This way we harvest the login.
+- For this exercise I would use BlackEye [Link](https://github.com/An0nUD4Y/blackeye). Very easy to use tool that can run fake login page easily. Would paste the login page to button in the email-link. This way we harvest the login.
 
 
 
