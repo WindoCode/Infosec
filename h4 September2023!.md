@@ -122,7 +122,7 @@ For this I would use BlackEye [Link](https://github.com/An0nUD4Y/blackeye). Very
 
 
 
-
+Brackets would be replaced with real information. This email is created for educational purposes only.
 ![image](https://github.com/WindoCode/Infosec/assets/110290723/5647cda4-cc6d-4a4c-a6f9-4fa99e0cf45a)
 
 
