@@ -67,3 +67,6 @@ Went back to terminal and gave 2 commands to install firewall and enabling the f
 
 Rebooted and now I have successfully installed linux. 👍
 
+#Reference
+
+https://terokarvinen.com/2023/information-security-2023-autumn/
